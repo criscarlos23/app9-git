@@ -33,8 +33,14 @@ Maria Cristina Carlos Bueno
 <!--plugin para geolocalizar-->
 <plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
 
-
-
+<!--para acceder a paginas de internet-->
+	 <allow-internet href="https://*/*"/>
+	 <acces origin="https://*/*"/>
+	 <allow-internet href="http://*/*"/>
+	 <acces origin="http://*/*"/>
+	 <plugin name="cordova-plugin-whitelist" source="npm"/>
+	 
 <!--Colocar icono app-->
 
 <icon src="res/android/mdpi.png"/>
+</widget>
